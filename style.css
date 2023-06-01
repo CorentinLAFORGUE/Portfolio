@@ -1,0 +1,320 @@
+body {
+    background-image: url("img/infrastructure.webp");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#navigation {
+    position: fixed top;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: whitesmoke;
+    font-size: 1.12em;
+    text-align: center;
+}
+
+#nom {
+    padding-left: 2em;
+    text-align: left;
+    color: black;
+}
+
+#nom button {
+    padding: 1em;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+#formation {
+    color: black;
+    background-color: lightblue;
+}
+
+#formation button {
+    padding: 1em;
+    background-color: lightblue;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+#competences {
+    color: black;
+    background-color: gray;
+}
+
+#competences button {
+    padding: 1em;
+    background-color: gray;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+#experiences {
+    color: black;
+    background-color: lightgreen;
+}
+
+#experiences button {
+    padding: 1em;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+#contacts {
+    color: black;
+    background-color: lightseagreen;
+}
+
+#contacts button {
+    padding: 1em;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 5em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#sous-titre_index {
+    /*margin-bottom: 5em;*/
+}
+
+#sous-titre_Odomo {
+    margin-bottom: 1em;
+}
+
+#sous-titre_Odomo_menu_competences {
+    padding-bottom: 0.5em;
+    font-weight: 1000;
+}
+
+#competences_cadre {
+    padding-bottom: 0.5em;
+    background-color: grey;
+    color: white;
+    font-weight: 1000;
+}
+
+#sous-titre_Odomo_menu_experiences {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+img {
+    height: 20em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#descriptifs {
+    font-size: large;
+    margin-left: 0.15em;
+    margin-right: 0.15em;
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+}
+
+button{
+    padding: 1em;
+    background-color: white;
+    border-radius: 0.25em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#p1 {
+    color: black;
+    background-color: lightblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#p2 {
+    background-color: grey;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#p3 {
+    color: black;
+    background-color: lightgreen;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#b1 button {
+    background-color: lightblue;
+    border: solid;
+}
+
+#b2 button {
+    color: white;
+    background-color: grey;
+    border: solid;
+}
+
+#b3 button {
+    background-color: lightgreen;
+    border: solid;
+}
+
+#titreP1 {
+    font-size: 2em;
+    color: black;
+    background-color: lightblue;
+}
+
+#titreP2 {
+    font-size: 2em;
+    color: white;
+    background-color: grey;
+}
+
+#titreP3 {
+    font-size: 2em;
+    color: black;
+    background-color: lightgreen;
+}
+
+#menuRetEx {
+    background-color: #0492C2;
+    color: black;
+    padding-bottom: 2em;
+    /*margin-left: 5em;*/
+}
+
+#page {
+    /**/
+}
+
+#RetEx_resume {
+    padding: 1em;
+    color: black;
+    background-color: lightgreen;
+}
+
+#Odomo_CDC, #Odomo_TMU {
+    margin-bottom: 5em;
+    color: black;
+    background-color: lightgreen;
+}
+
+li {
+    text-align: left;
+}
+
+#ligne1, #ligne2 {
+    margin-bottom: 1em;
+}
+
+/*
+#portrait {
+    margin-left: 23em;
+}
+*/
+
+#liste_projets div{
+    padding-bottom: 1em;
+    font-size: large;
+}
+
+#bouton img {
+    display:none;
+}
+
+#bouton:hover img {
+    display:inline;
+    position: absolute;
+    z-index: 1;
+    max-width: 80%;
+    height: auto;
+}
+
+.CadreRetEx li{
+    padding-top: 2em;
+    font-size: 1.25em;
+}
+
+#imgVM_1, #imgVM_2, #imgOdomo, #imgBiosphere, #imgBD_1, #imgBD_2, #imgSiteInternet {
+    max-width: 90%;
+    height: auto;
+}
+
+#titre_competences {
+    margin-bottom: 1em;
+}
+
+#page_competences {
+    background-color: gray;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#page_contact {
+    background-color: lightseagreen;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#adresseMail {
+    color: yellow;
+}
+
+h4 {
+    margin-top: 2em;
+}
+
+#telechargement {
+    margin-top: 5em;
+}
+
+#boutonDownload {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.contenuCompetences {
+    font-size: large;
+}
+
+#formation_introduction {
+    font-size: larger;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    color: black;
+    background-color: lightblue;
+}
+
+#formation_cadre {
+    padding-bottom: 0.5em;
+    color: black;
+    background-color: lightblue;
+}
+
+#formation_cadre ul li ul {
+    font-size: medium;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de données</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            /*background-color: gray;*/
+            background-image: url("img/background.png");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" id="navigation">
+        <div class="col-md-8" id="nom"><button onclick="window.location.href = 'index.html'">Corentin LAFORGUE</button>
+        </div>
+        <div class="col-md-1" id="formation"><button onclick="window.location.href = 'Formation.html'">Formation</button></div>
+        <div class="col-md-1" id="competences"><button onclick="window.location.href = 'Competences.html'">Compétences</button></div>
+        <div class="col-md-1" id="experiences"><button
+                onclick="window.location.href = 'RetEx-Odomo.html'">Expériences</button></div>
+        <div class="col-md-1" id="contacts"><button onclick="window.location.href = 'Contacts.html'">Contacts</button></div>
+    </div>
+
+    <h1>Base de données</h1>
+    <h2 id="sous-titre_Odomo">Conception, modélisation et réalisation</h2>
+
+    <div class="row" id="total">
+        <div class="col-md-3" id="menuRetEx">
+            <h3 id="sous-titre_Odomo_menu_experiences">Mes expériences</h3>
+            <div class="row" id="liste_projets">
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Odomo.html'">
+                        Odomo
+                        <img src="./img/Odomo_Miniature.jpg" alt="Odomo" id="imgButton_Odomo">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Biosphere7.html'">
+                        Biosphere 7
+                        <img src="./img/Biosphere7_Miniature.jpg" alt="Biosphere7" id="imgButton_Biosphere7">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-VM.html'">
+                        Machine virtuelle
+                        <img src="./img/VM_1.jpg" alt="Odomo" id="imgButton_VM">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-BD.html'">
+                        Base de données
+                        <img src="./img/BD1.PNG" alt="Base de données" id="imgButton_BD">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-AE.html'">
+                        Analyse économique
+                        <img src="./img/AE_Miniature.jpg" alt="Analyse économique" id="imgButton_AE">
+                    </button>
+                </div>
+                <div class="col-md-12" id="">
+                    <button onclick="window.location.href = 'RetEx-SiteInternet.html'" id="bouton">
+                        Site internet
+                        <img src="./img/SiteInternet_Miniature.jpg" alt="Site internet" id="imgButton_SiteInternet">
+                    </button>
+                </div>
+                <div class="col-md-12" id="telechargement">
+                    <button onclick="window.location.href = 'RetEx/BaseDeDonnees.pdf'" id="boutonDownload">
+                        Télécharger ce RetEx
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" id="page">
+            <div id="competences_cadre">
+                <h3 id="sous-titre_Odomo_menu_competences">Compétences développées</h3>
+                <ul>
+                    <li>Langage SQL</li>
+                    <li>Conception d'une base de données</li>
+                    <li>Analyse de la qualité des données</li>
+                    <li>Organisation d'un travail de groupe</li>
+                </ul>
+            </div>
+            <p id="RetEx_resume">L'objectif de ce projet était de concevoir une base de données pour une entreprise
+                baptisée BilletConcert.fr. Pour cela, nous avons divisé le projet en 3 parties distinctes : la
+                conception de la base de données, sa création, et son remplissage avec un jeu de données reflétant ses
+                diverses contraintes. En parallèle de cela, ce projet étant un projet de groupe, nous avons également dû
+                organiser notre travail à l'aide d'un Diagramme de Gantt, un fichier permettant de répartir les tâches
+                entre les membres du groupe sur la période de travail.</p>
+            <div class="row" id="ligne1">
+                <div class="col-md-6" id="Odomo_CDC">
+                    <h3>Cahier des charges</h3>
+                    <ul class="CadreRetEx">
+                        <li>Concevoir la structure de la base de données, à l'aide d'un Modèle Conceptuel de Données
+                        </li>
+                        <li>Créer la base, à partir de la conception précédemment réalisée</li>
+                        <li>Organiser le travail à l'aide d'un Diagramme de Gantt</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 id=" Odomo_image1">
+                    <img src="./img/BD1.PNG" alt="Base de données 1" id="imgBD_1">
+                </div>
+            </div>
+            <div class="row" id="ligne2">
+                <div class="col-md-6">
+                    <img src="./img/BD2.PNG" alt="Base de données 2" id="imgBD_2">
+                </div>
+                <div class="col-md-6" id="Odomo_TMU">
+                    <h3>Technologies et Méthodes utilisées</h3>
+                    <ul class="CadreRetEx">
+                        <li><a href="https://fr.wikipedia.org/wiki/Structured_Query_Language">Langage SQL</a></li>
+                        <li><a href="https://www.win-design.com/">Win'design</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Microsoft_SQL_Server">Microsoft SQL Server</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Diagramme_de_Gantt">Diagramme de Gantt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

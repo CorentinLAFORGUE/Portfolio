@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Site internet</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            /*background-color: gray;*/
+            background-image: url("img/background.png");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" id="navigation">
+        <div class="col-md-8" id="nom"><button onclick="window.location.href = 'index.html'">Corentin LAFORGUE</button>
+        </div>
+        <div class="col-md-1" id="formation"><button onclick="window.location.href = 'Formation.html'">Formation</button></div>
+        <div class="col-md-1" id="competences"><button onclick="window.location.href = 'Competences.html'">Compétences</button></div>
+        <div class="col-md-1" id="experiences"><button
+                onclick="window.location.href = 'RetEx-Odomo.html'">Expériences</button></div>
+        <div class="col-md-1" id="contacts"><button onclick="window.location.href = 'Contacts.html'">Contacts</button></div>
+    </div>
+
+    <h1>Site internet</h1>
+    <h2 id="sous-titre_Odomo">Rapport économique Delpeyrat porté sur un site internet</h2>
+
+    <div class="row" id="total">
+        <div class="col-md-3" id="menuRetEx">
+            <h3 id="sous-titre_Odomo_menu_experiences">Mes expériences</h3>
+            <div class="row" id="liste_projets">
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Odomo.html'">
+                        Odomo
+                        <img src="./img/Odomo_Miniature.jpg" alt="Odomo" id="imgButton_Odomo">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Biosphere7.html'">
+                        Biosphere 7
+                        <img src="./img/Biosphere7_Miniature.jpg" alt="Biosphere7" id="imgButton_Biosphere7">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-VM.html'">
+                        Machine virtuelle
+                        <img src="./img/VM_1.jpg" alt="Odomo" id="imgButton_VM">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-BD.html'">
+                        Base de données
+                        <img src="./img/BD1.PNG" alt="Base de données" id="imgButton_BD">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-AE.html'">
+                        Analyse économique
+                        <img src="./img/AE_Miniature.jpg" alt="Analyse économique" id="imgButton_AE">
+                    </button>
+                </div>
+                <div class="col-md-12" id="">
+                    <button onclick="window.location.href = 'RetEx-SiteInternet.html'" id="bouton">
+                        Site internet
+                        <img src="./img/SiteInternet_Miniature.jpg" alt="Site internet" id="imgButton_SiteInternet">
+                    </button>
+                </div>
+                <div class="col-md-12" id="telechargement">
+                    <button onclick="window.location.href = 'RetEx/SiteInternet.pdf'" id="boutonDownload">
+                        Télécharger ce RetEx
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" id="page">
+            <div id="competences_cadre">
+                <h3 id="sous-titre_Odomo_menu_competences">Compétences développées</h3>
+                <ul>
+                    <li>Analyse de besoin</li>
+                    <li>Programmation web</li>
+                </ul>
+            </div>
+            <p id="RetEx_resume">L'objectif de ce projet était de réaliser un site internet dans son intégralité. Ce
+                site devait présenter le rapport économique portant sur Delpeyrat (Voir <a href="RetEx-AE.html">"Analyse
+                    économique"</a>). Le site devait comporter 1 page d'accueil en anglais, ainsi qu'une page par partie
+                abordée par le rapport, et une page de mentions légales avec un formulaire de contact.</p>
+            <div class="row" id="ligne1">
+                <div class="col-md-6" id="Odomo_CDC">
+                    <h3>Cahier des charges</h3>
+                    <ul class="CadreRetEx">
+                        <li>Recueil de besoins</li>
+                        <li>Programmation web</li>
+                        <li>Site "responsive" (affichage s'adapte à la taille de la page du navigateur)</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 id=" Odomo_image1">
+                    <img src="./img/SiteInternet_1.jpg" alt="Site internet 1" id="imgSiteInternet">
+                </div>
+            </div>
+            <div class="row" id="ligne2">
+                <div class="col-md-6">
+                    <img src="./img/SiteInternet_2.jpg" alt="Site internet 2" id="imgSiteInternet">
+                </div>
+                <div class="col-md-6" id="Odomo_TMU">
+                    <h3>Technologies et Méthodes utilisées</h3>
+                    <ul class="CadreRetEx">
+                        <li><a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">Langage HTML</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">Langage CSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

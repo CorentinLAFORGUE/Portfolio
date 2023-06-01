@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Odomo</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            /*background-color: gray;*/
+            background-image: url("img/background.png");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" id="navigation">
+        <div class="col-md-8" id="nom"><button onclick="window.location.href = 'index.html'">Corentin LAFORGUE</button>
+        </div>
+        <div class="col-md-1" id="formation"><button onclick="window.location.href = 'Formation.html'">Formation</button></div>
+        <div class="col-md-1" id="competences"><button onclick="window.location.href = 'Competences.html'">Compétences</button></div>
+        <div class="col-md-1" id="experiences"><button
+                onclick="window.location.href = 'RetEx-Odomo.html'">Expériences</button></div>
+        <div class="col-md-1" id="contacts"><button onclick="window.location.href = 'Contacts.html'">Contacts</button></div>
+    </div>
+
+    <h1>Odomo</h1>
+    <h2 id="sous-titre_Odomo">Simulation d'une station météorologique</h2>
+
+    <div class="row" id="total">
+        <div class="col-md-3" id="menuRetEx">
+            <h3 id="sous-titre_Odomo_menu_experiences">Mes expériences</h3>
+            <div class="row" id="liste_projets">
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Odomo.html'">
+                        Odomo
+                        <img src="./img/Odomo_Miniature.jpg" alt="Odomo" id="imgButton_Odomo">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Biosphere7.html'">
+                        Biosphere 7
+                        <img src="./img/Biosphere7_Miniature.jpg" alt="Biosphere7" id="imgButton_Biosphere7">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-VM.html'">
+                        Machine virtuelle
+                        <img src="./img/VM_1.jpg" alt="Odomo" id="imgButton_VM">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-BD.html'">
+                        Base de données
+                        <img src="./img/BD1.PNG" alt="Base de données" id="imgButton_BD">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-AE.html'">
+                        Analyse économique
+                        <img src="./img/AE_Miniature.jpg" alt="Analyse économique" id="imgButton_AE">
+                    </button>
+                </div>
+                <div class="col-md-12" id="">
+                    <button onclick="window.location.href = 'RetEx-SiteInternet.html'" id="bouton">
+                        Site internet
+                        <img src="./img/SiteInternet_Miniature.jpg" alt="Site internet" id="imgButton_SiteInternet">
+                    </button>
+                </div>
+                <div class="col-md-12" id="telechargement">
+                    <button onclick="window.location.href = 'RetEx/Odomo.pdf'" id="boutonDownload">
+                        Télécharger ce RetEx
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" id="page">
+            <div id="competences_cadre">
+                <h3 id="sous-titre_Odomo_menu_competences">Compétences développées</h3>
+                <ul>
+                    <li>Affichage adaptatif</li>
+                    <li>Traitement de données</li>
+                    <li>Programation Java</li>
+                    <li>Implémentation de tests unitaires</li>
+                </ul>
+            </div>
+            <p id="RetEx_resume">Le projet Odomo consiste en la programmation en java d’une station météorologique
+                personnelle. Cette station contient plusieurs options possibles, telles que la météorologie (stockage et
+                gestion des données), la gestion d’une chaudière ou encore la gestion du jardin. Au début du projet, je
+                disposais de presque toutes les fonctions d’affichages graphiques, et j’ai donc dû coder les fonctions
+                de gestion des données ainsi que les fonctions graphiques manquantes. Grâce à ce projet, je me suis
+                familiarisé avec les tableaux et les matrices (les tableaux à double entrée).</p>
+            <div class="row" id="ligne1">
+                <div class="col-md-6" id="Odomo_CDC">
+                    <h3>Cahier des charges</h3>
+                    <ul class="CadreRetEx">
+                        <li>Programme à compléter</li>
+                        <li>Interface textuelle</li>
+                        <li>Traitement de données</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/Odomo1.png" alt="Odomo1" id="imgOdomo">
+                </div>
+            </div>
+            <div class="row" id="ligne2">
+                <div class="col-md-6">
+                    <img src="./img/Odomo2.png" alt="Odomo2" id="imgOdomo">
+                </div>
+                <div class="col-md-6" id="Odomo_TMU">
+                    <h3>Technologies et Méthodes utilisées</h3>
+                    <ul class="CadreRetEx">
+                        <li><a href="https://fr.wikipedia.org/wiki/Java_(langage)">Langage Java</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Test_unitaire">Tests unitaires</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Matrice_(math%C3%A9matiques)">Matrices (tableaux à 2
+                                entrées)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

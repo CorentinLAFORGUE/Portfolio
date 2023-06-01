@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Biosphere 7</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            /*background-color: gray;*/
+            background-image: url("img/background.png");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" id="navigation">
+        <div class="col-md-8" id="nom"><button onclick="window.location.href = 'index.html'">Corentin LAFORGUE</button>
+        </div>
+        <div class="col-md-1" id="formation"><button onclick="window.location.href = 'Formation.html'">Formation</button></div>
+        <div class="col-md-1" id="competences"><button onclick="window.location.href = 'Competences.html'">Compétences</button></div>
+        <div class="col-md-1" id="experiences"><button
+                onclick="window.location.href = 'RetEx-Odomo.html'">Expériences</button></div>
+        <div class="col-md-1" id="contacts"><button onclick="window.location.href = 'Contacts.html'">Contacts</button></div>
+    </div>
+
+    <h1>Biosphere 7</h1>
+    <h2 id="sous-titre_Odomo">Intelligence artificielle de jeu autonome</h2>
+
+    <div class="row" id="total">
+        <div class="col-md-3" id="menuRetEx">
+            <h3 id="sous-titre_Odomo_menu_experiences">Mes expériences</h3>
+            <div class="row" id="liste_projets">
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Odomo.html'">
+                        Odomo
+                        <img src="./img/Odomo_Miniature.jpg" alt="Odomo" id="imgButton_Odomo">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-Biosphere7.html'">
+                        Biosphere 7
+                        <img src="./img/Biosphere7_Miniature.jpg" alt="Biosphere7" id="imgButton_Biosphere7">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-VM.html'">
+                        Machine virtuelle
+                        <img src="./img/VM_1.jpg" alt="Odomo" id="imgButton_VM">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-BD.html'">
+                        Base de données
+                        <img src="./img/BD1.PNG" alt="Base de données" id="imgButton_BD">
+                    </button>
+                </div>
+                <div class="col-md-12" id="bouton">
+                    <button onclick="window.location.href = 'RetEx-AE.html'">
+                        Analyse économique
+                        <img src="./img/AE_Miniature.jpg" alt="Analyse économique" id="imgButton_AE">
+                    </button>
+                </div>
+                <div class="col-md-12" id="">
+                    <button onclick="window.location.href = 'RetEx-SiteInternet.html'" id="bouton">
+                        Site internet
+                        <img src="./img/SiteInternet_Miniature.jpg" alt="Site internet" id="imgButton_SiteInternet">
+                    </button>
+                </div>
+                <div class="col-md-12" id="telechargement">
+                    <button onclick="window.location.href = 'RetEx/Biosphere7.pdf'" id="boutonDownload">
+                        Télécharger ce RetEx
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" id="page">
+            <div id="competences_cadre">
+                <h3 id="sous-titre_Odomo_menu_competences">Compétences développées</h3>
+                <ul>
+                    <li>Programation Java</li>
+                    <li>Traitement de Conditions</li>
+                    <li>Traitement de données</li>
+                    <li>Implémentation de tests unitaires</li>
+                </ul>
+            </div>
+            <p id="RetEx_resume">Le nom de ce projet est Biosphère7. Il s’agit d’un projet java consistant à coder, pour
+                un jeu de plateau nommé Biosphère7, un programme capable de trouver les coups possibles pour un joueur
+                donné, et une Intelligence Artificielle capable de jouer de façon autonome à ce jeu. Durant la première
+                partie du projet, j’ai pu valider 6 des 15 niveaux de programmation, et durant le codage de l’IA, j’ai
+                codé une IA utilisant un algorithme min-max avec élagage alpha-bêta. Cela m’a permis de renforcer mes
+                compétences en Java, notamment les algorithmes récursifs.</p>
+            <div class="row" id="ligne1">
+                <div class="col-md-6" id="Odomo_CDC">
+                    <h3>Cahier des charges</h3>
+                    <ul class="CadreRetEx">
+                        <li>Déterminer les coups possibles</li>
+                        <li>Anticiper les coups de l'adversaire</li>
+                        <li>Etablir une stratégie gagnante</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/Biosphere7_1.jpg" alt="Biosphere7_1" id="imgBiosphere">
+                </div>
+            </div>
+            <div class="row" id="ligne2">
+                <div class="col-md-6">
+                    <img src="img/Biosphere7_2.jpg" alt="Biosphere7_2" id="imgBiosphere">
+                </div>
+                <div class="col-md-6" id="Odomo_TMU">
+                    <h3>Technologies et Méthodes utilisées</h3>
+                    <ul class="CadreRetEx">
+                        <li><a href="https://fr.wikipedia.org/wiki/Java_(langage)">Langage Java</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Algorithme_r%C3%A9cursif">Algorithmes récursifs</a>
+                        </li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Algorithme_minimax">Algorithme minimax</a> avec <a
+                                href="https://fr.wikipedia.org/wiki/%C3%89lagage_alpha-b%C3%AAta">élagage alpha-bêta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
